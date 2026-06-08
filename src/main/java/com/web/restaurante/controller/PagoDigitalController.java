@@ -25,9 +25,9 @@ public class PagoDigitalController {
         model.addAttribute("title", "Gestión de Pagos Digitales");
         model.addAttribute("titleHeader", "Gestión de Pagos Digitales");
 
-        model.addAttribute("view", "/pagodigital/pago-digital");
-        model.addAttribute("css", "/css/pago-digital.css");
-        model.addAttribute("js", "/js/pago-digital.js");
+        model.addAttribute("view", "pagodigital/pago-digital");
+        model.addAttribute("css", "css/pago-digital.css");
+        model.addAttribute("js", "js/pago-digital.js");
 
         return "layout-gestion";
     }
